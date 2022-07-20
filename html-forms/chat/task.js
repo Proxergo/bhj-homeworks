@@ -36,7 +36,5 @@ chatInput.addEventListener('keydown', (event) => {
             <div class="message__time">${timestamp()}</div>
             <div class="message__text">${botMessages[Math.floor(Math.random()*botMessages.length)]}</div>
         </div>`;
-    } else {
-        event.preventDefault();
     }
-})
+});
